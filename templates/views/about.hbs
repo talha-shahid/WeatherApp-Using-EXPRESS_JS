@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerFiles}}
+</head>
+<body>
+      {{>navbar}}
+      <!-- Main Header -->
+    <div class="container-fluid main-header">
+        <div class="row">
+          
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                  <!-- Left Side div -->
+                    <div class="col-md-5 main_header_left">
+                      <div class="content">
+                        <p>Welcome to Weather App</p>
+                        <h1>I am <span class="weather">Talha Shahid</span>, A Web Developer</h1>
+                        <a href="/weather"><button>More Info</button></a>
+                      </div>
+                    </div>
+                    <!-- Right Side div -->
+                    <div class="col-md-6 main_header_right ml-auto ">
+                      <div class="images">
+                        <figure>
+                            <img src="images/im.png" class="img-fluid">
+                        </figure>
+                        <img id='q' src="images/image.png" alt="" srcset="">
+                      </div>
+                    </div>
+
+                </div>
+            </div>
+           
+
+        </div>
+    </div>
+    <!-- footer -->
+    {{>footer}}
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
